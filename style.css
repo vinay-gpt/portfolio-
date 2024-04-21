@@ -1,0 +1,115 @@
+/* CSS for reducing space between adjacent sections */
+.section {
+    margin-bottom: -50px; /* Adjust as needed or set to 0 to remove space between sections */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f0f2f4;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: #224e6d;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.section {
+    padding: 10px 0; /* Adjust the padding as needed */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.footer {
+    background-color: #efe9e9;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.footer {
+    background-color: #720e0e;
+    color: #82b208;
+    text-align: center;
+    padding: 20px 0;
+}
+/* CSS for reducing space between specific sections */
+#about.section,
+#education.section {
+    padding-top: 100px;
+    padding-bottom:-px;
+}
+/* CSS for reducing space between specific sections */
+#introduction.section,
+#about.section,
+#education.section,
+#skills.section {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+body {
+    background-color: #ced1ca; /* Light gray background color */
+    background-image: url(); /* Background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+.navbar,
+.secondary-navbar {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul,
+.secondary-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li,
+.secondary-navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a,
+.secondary-navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+
+
